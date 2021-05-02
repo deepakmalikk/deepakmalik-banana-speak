@@ -1,7 +1,13 @@
-var btntans=document.querySelector("#btn-trans");
-console.log(btntans)
+var btnTranslate=document.querySelector("#btn-translate");
+var txtInput= document.querySelector("#txt-input")
+var outputDiv =document.querySelector("#output")
 
-// btntans.addEventListener("click", function eventlistner () {
-//     console.log("Clicked")
-//   })
 
+
+
+function clickEventHandler(){
+    outputDiv.innerText="Deepak "+ txtInput.value;  
+}
+
+
+btnTranslate.addEventListener("click",  clickEventHandler)

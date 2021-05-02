@@ -5,11 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana speak</title>
+    <style>
+        textarea{
+            margin: 1rem;
+            padding: 1 rem 0.5rem;
+            display: block;
+            width: 50%;
+            height: 10vh;
+        }
+        #output{
+            border: 1px solid black;
+            height: 10vh;
+            margin: 1rem;
+            padding: 1 rem ;
+            width: 50%;
+            
+            
+        }
+    </style>
    
 </head>
 <body>
     <h1>Banana talks</h1>
-    <button id="btn-trans">Translate</button>
+    <textarea id="txt-input" 
+    placeholder="Enter your input"></textarea>
+    <button id="btn-translate">Translate</button>
+     <div style="font-size: large;">Output is here 👇 </div>
+    <div id="output"></div>
+    
 
 
 
