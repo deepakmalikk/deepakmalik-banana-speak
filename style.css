@@ -43,3 +43,16 @@ textarea{
     padding: 0.8rem 0rem;
     
 }
+.footer{
+    
+    text-align: center;
+    background-color: yellowgreen;
+     margin: 1rem 0rem; 
+    
+    border-radius: 0.2rem;
+}
+.footer.anchor{
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+    margin-bottom: 0.5rem;
+}
