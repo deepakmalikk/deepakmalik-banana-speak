@@ -25,8 +25,9 @@ textarea{
 #output{
     border: 1px solid black;
     height: 10vh;
-    margin: orem 1rem;
-    padding: 1 rem ;
+    margin: 0.5rem  0rem;
+    padding: 0.8rem 0   rem ;
+    
     width: 50%;
     display: block;
     
@@ -47,12 +48,14 @@ textarea{
     
     text-align: center;
     background-color: yellowgreen;
-     margin: 1rem 0rem; 
-    
+   
+    padding-bottom: 0.2rem;
     border-radius: 0.2rem;
+    
 }
-.footer.anchor{
+.footer .anchor{
     text-decoration: none;
-    padding: 0.5rem 0.5rem;
-    margin-bottom: 0.5rem;
+   
+    color: grey;
+    font-size: large;
 }
