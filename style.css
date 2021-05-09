@@ -36,9 +36,10 @@ textarea{
     margin: 0.5rem ;
     padding: 0.2rem;
     background-color: yellowgreen;
+    border-radius: 0.5rem;
 }
 .div{
     font-size: large; 
     padding: 0.8rem 0rem;
-    font-display: darkblack;
+    
 }
