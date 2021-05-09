@@ -1,7 +1,7 @@
 h1{
     text-align: center;
     background-color: yellowgreen;
-    /* margin: 1rem 0rem; */
+    margin: 1.5rem 0rem;
     padding: 1rem 1rem;
     border-radius: 0.2rem;
    
@@ -10,14 +10,11 @@ body{
     font-family: 'Itim', cursive;
 }
 
-header{
-  max-width: 150px;
-}
 
 
 textarea{
-    /* margin: 0.5rem 0rem; */
-    padding: 1 rem 0.5rem;
+   
+    padding: 2 rem 0.5rem;
     display: block;
     width: 50%;
     height: 10vh;
@@ -25,7 +22,7 @@ textarea{
 #output{
     border: 1px solid black;
     height: 10vh;
-    margin: 0.5rem  0rem;
+    margin: 1rem  0rem;
     padding: 0.8rem 0   rem ;
     
     width: 50%;
@@ -34,21 +31,21 @@ textarea{
     
 }
 #btn-translate{
-    margin: 0.5rem ;
+    margin: 1rem ;
     padding: 0.2rem;
     background-color: yellowgreen;
     border-radius: 0.5rem;
 }
 .div{
     font-size: large; 
-    padding: 0.8rem 0rem;
+    padding-top: 1rem;
     
 }
 .footer{
     
     text-align: center;
     background-color: yellowgreen;
-   
+   margin-top: 1rem;
     padding-bottom: 0.2rem;
     border-radius: 0.2rem;
     
