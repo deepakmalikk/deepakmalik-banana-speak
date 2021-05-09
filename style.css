@@ -37,3 +37,8 @@ textarea{
     padding: 0.2rem;
     background-color: yellowgreen;
 }
+.div{
+    font-size: large; 
+    padding: 0.8rem 0rem;
+    font-display: darkblack;
+}
